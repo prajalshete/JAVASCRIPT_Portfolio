@@ -1,7 +1,7 @@
 const taskInput = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
 
-// Add a new task
+
 function addTask() {
   const taskText = taskInput.value.trim();
   if (taskText === '') return;
@@ -14,7 +14,7 @@ function addTask() {
   taskInput.value = '';
 }
 
-// Delete a task
+
 function deleteTask(button) {
   const li = button.parentElement;
   taskList.removeChild(li);
