@@ -2,7 +2,7 @@ const cityInput = document.getElementById('city-input');
 const getWeatherButton = document.getElementById('get-weather');
 const weatherResult = document.getElementById('weather-result');
 
-const apiKey = 'f1bd29681ad48b07957a3960de55278c'; // Replace with your OpenWeather API key
+const apiKey = 'f1bd29681ad48b07957a3960de55278c'; 
 
 const getWeather = () => {
   const city = cityInput.value.trim();
